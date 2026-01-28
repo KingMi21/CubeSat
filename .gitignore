@@ -1,0 +1,35 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# YOLO / модели
+*.pt
+*.pth
+*.onnx
+
+# Данные и результаты
+cubesat_dataset/
+runs/
+test_results/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи и кэш
+*.log
+*.cache
