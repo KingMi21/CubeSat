@@ -17,7 +17,6 @@ pip-delete-this-directory.txt
 *.code-workspace
 
 # YOLO / модели
-*.pt
 *.pth
 *.onnx
 
