@@ -23,8 +23,9 @@ pip-delete-this-directory.txt
 
 # Данные и результаты
 cubesat_dataset/
-runs/
-test_results/
+runs/detect/train/*
+!runs/detect/train/results.csv
+!runs/detect/train/results.png
 
 # Системные файлы
 .DS_Store
